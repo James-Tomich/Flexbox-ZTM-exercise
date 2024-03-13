@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h1{
+	font-family: fantasy;
+	color: midnightblue;
+	font-size: 3em;
+	border-bottom: 2px solid #4848C3;
+	border-right: 2px solid #4848C3;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 6px #4848C3;
+	margin-top: 10px;
+
+
+}
+
+
+img {
+	width: 400px;
+	height:350px;
+	margin: 10px;
+	transition: all 1s;
+	box-shadow: 4px 4px 5px #4848C3;
+
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+footer {
+
+	font-family: fantasy;
+	color: midnightblue;
+	font-size: 1em;
+	text-align: center;
+
+}
